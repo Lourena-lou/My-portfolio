@@ -1,51 +1,18 @@
 <!DOCTYPE html>
 <html lang= "en">
     <head>
-        <title>My profile</title>
+        <title>My portfolio</title>
         <meta charset="UTF-8">
          <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-    <button id="mode-toggle" style="position:fixed;top:16px;right:16px;z-index:2000;padding:8px 18px;border-radius:20px;border:none;background:#222;color:#fff;font-size:1rem;cursor:pointer;">Dark Mode</button>
-    <div class="Profile-container">
-        <div class="left-panel">
-            <img src="IMG_8757.jpg" alt="My Photo" class="profile-pic">
-        </div>
 
-        <div class="right-panel">
-            <h1> Hi, I am Lourena Lourenço 👩🏽‍💻 </h1>
+    <body>
+    <div class="profile-container">
+        <div class="intro-container">
+            <h1> Welcome, I am Lourena Lourenço 👩🏽‍💻 </h1>
             <h2>Computer Science | Software Engineer | Web Development | Exploring Data Analytics
 </h2>
-            <a href="mailto:lourencolourena7@gmail.com" class="contact-btn">Email me</a>
-        </div>
         </div>
     </div>
-    <section class="intro-container">
-             <div class="intro-left">
-            <p> <b>When I’m not coding...</b> <br>I dedicate time to expanding my knowledge in psychology,programming,experimenting with new recipes, traveling, and sharing meaningful moments with my loved ones. </p>
-        <p>"Take a deep breath, refocus, and keep trying until you achieve success"🎯</p></div>
-        <div class="intro-right">
-            <h1 class="big-heading" > More About me </h1>
-<p>I'll start by being honest with you and saying that programming was by far my first choice,but I believe we can achieve anything we set our minds to. Nowadays my passion lies in creating tools and applications that make people’s lives easier and more meaningful.
-I see my future as a journey of continuous learning, bold challenges, and meaningful collaborations. I aspire to inspire others through my work, contribute to projects that make a difference, with empathy, and creativity. <br> Let’s code the future together! 🚀</p>
-        <footer>
-            <a href="mailto:lourencolourena7@gmail.com" class="contact-btn">Email me</a>
-        </footer>
     </section>
 </body>
-<script>
-const toggleBtn = document.getElementById('mode-toggle');
-const body = document.body;
-let darkMode = false;
-toggleBtn.addEventListener('click', function() {
-  darkMode = !darkMode;
-  if (darkMode) {
-    body.classList.add('dark-mode');
-    toggleBtn.textContent = 'Light Mode';
-  } else {
-    body.classList.remove('dark-mode');
-    toggleBtn.textContent = 'Dark Mode';
-  }
-});
-</script>
-</html>
